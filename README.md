@@ -1,12 +1,12 @@
-# Creative Studio Landing Page
+# Headphones Landing Page
 
 > ## [Prateek Budhiraja](https://prateekbudhiraja.in)
 
 <br/>
 
 ![mobile-responsive](https://img.shields.io/badge/Mobile%20Responsive-No-red)
-[![Deployed](https://img.shields.io/badge/Deployed-Yes-green)](https://webdesign-landing.vercel.app/)
-![Time](https://img.shields.io/badge/Time%20Taken-3hrs-green)
+[![Deployed](https://img.shields.io/badge/Deployed-Yes-green)](https://headphones-landing.vercel.app/)
+![Time](https://img.shields.io/badge/Time%20Taken-4hrs-green)
 
 ## Tech Stack:
 
@@ -15,13 +15,14 @@
 
 ---
 
-### Checkout the live website [here](https://webdesign-landing.vercel.app/).
+### Checkout the live website [here](https://headphones-landing.vercel.app/).
 
 ---
 
 ## My Learnings
 
 - Learned more about positioning.
+- Learned more about flex.
 
 ---
 
