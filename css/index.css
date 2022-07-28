@@ -1,0 +1,167 @@
+:root {
+  --primary: #FE5E35;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  /* flex-grow: 100%; */
+  justify-content: space-between;
+
+}
+
+nav [alt="logo"] {
+  width: 100px;
+}
+
+nav .nav-items {
+  font-size: 1.2rem;
+  gap: 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-items h5:first-child {
+  color: var(--primary);
+}
+
+/* ===================================== */
+/* Main section left */
+.left-section {
+  margin: 80px 50px;
+}
+
+.left-section h3 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.left-section h3 img {
+  width: 50px;
+}
+
+.left-section h1 {
+  font-family: 'Fredoka One', cursive;
+  font-weight: 500;
+  font-size: 4.8rem;
+  margin-bottom: 40px;
+}
+
+.sub-headlines {
+  margin-bottom: 40px;
+}
+
+.sub-headline {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.sub-headline>img {
+  background-color: var(--primary);
+  border-radius: 50%;
+  margin-right: 15px;
+  width: 20px;
+}
+
+.sub-headlines .sub-headline {
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.left-section p.text {
+  width: 50%;
+  color: #758283;
+  font-size: .9rem;
+}
+
+.action-btns {
+  margin-top: 80px;
+}
+
+.action-btn {
+  padding: 10px 30px;
+  margin-right: 30px;
+  background-color: var(--primary);
+  border-radius: 20px;
+  color: #fff;
+  border: 0;
+  font-size: 1.1rem;
+}
+
+/* ================================ */
+/* right section*/
+.headphone-div img[alt="headphone"] {
+  width: 35%;
+  position: absolute;
+  right: 70px;
+  top: 15%;
+  z-index: -1;
+}
+
+.headphone-div .discount {
+  position: absolute;
+  right: 33%;
+  top: 50%;
+  width: 10%
+}
+
+.discount-content {
+  color: #fff;
+  position: absolute;
+  bottom: 37%;
+  right: 506px;
+}
+
+.discount-content h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.dots {
+  display: flex;
+  gap: 1em;
+  position: absolute;
+  bottom: 170px;
+  right: 250px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.dots .yellow-dot {
+  background-color: #F4BE2C;
+}
+
+.dots .tomato-dot {
+  background-color: #EB4D4B;
+}
+
+.dots .black-dot {
+  background-color: #242B2E;
+}
+
+.right-section .action-btn {
+  position: absolute;
+  right: 190px;
+  bottom: 88px;
+}
